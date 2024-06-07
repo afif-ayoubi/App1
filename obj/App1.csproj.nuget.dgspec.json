@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Afif\\source\\repos\\app1\\app1\\App1.csproj": {}
+    "/Users/mohamad/Desktop/work/learning/dotnet/sampleApp/App1/App1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Afif\\source\\repos\\app1\\app1\\App1.csproj": {
+    "/Users/mohamad/Desktop/work/learning/dotnet/sampleApp/App1/App1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Afif\\source\\repos\\app1\\app1\\App1.csproj",
+        "projectUniqueName": "/Users/mohamad/Desktop/work/learning/dotnet/sampleApp/App1/App1.csproj",
         "projectName": "App1",
-        "projectPath": "C:\\Users\\Afif\\source\\repos\\app1\\app1\\App1.csproj",
-        "packagesPath": "C:\\Users\\Afif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Afif\\source\\repos\\app1\\app1\\obj\\",
+        "projectPath": "/Users/mohamad/Desktop/work/learning/dotnet/sampleApp/App1/App1.csproj",
+        "packagesPath": "/Users/mohamad/.nuget/packages/",
+        "outputPath": "/Users/mohamad/Desktop/work/learning/dotnet/sampleApp/App1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Afif\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/mohamad/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,6 +73,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.6.0, )"
             }
           },
           "imports": [
@@ -88,6 +90,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.1, 8.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.1, 8.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.1, 8.0.1]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -96,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-preview.1.24101.2/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
